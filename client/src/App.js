@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header'
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Prompt from "./components/Prompt";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Prompt />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
